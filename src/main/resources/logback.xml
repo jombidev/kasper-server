@@ -17,7 +17,7 @@
             </timeBasedFileNamingAndTriggeringPolicy>
         </rollingPolicy>
         <encoder>
-            <pattern>%d{yyyy-MM-dd-HH:mm:ss:sss} %logger{0} %-3level %msg%n</pattern>
+            <pattern>%d{yyyy-MM-dd-HH:mm:ss:SSS} %logger{0} %-3level %msg%n</pattern>
         </encoder>
     </appender>
 

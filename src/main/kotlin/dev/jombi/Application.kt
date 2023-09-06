@@ -1,5 +1,6 @@
 package dev.jombi
 
+import dev.jombi.database.DatabaseFactory
 import dev.jombi.plugins.*
 import io.ktor.server.application.*
 import io.ktor.server.engine.*
@@ -11,6 +12,6 @@ fun main() {
 }
 
 fun Application.module() {
-    configureSerialization()
+    DatabaseFactory
     configureRouting()
 }

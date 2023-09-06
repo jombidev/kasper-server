@@ -1,4 +1,6 @@
 package dev.jombi.dto.response
 
-class FailedResponse {
-}
+import kotlinx.serialization.Serializable
+
+@Serializable
+data class FailedResponse(val message: String)
