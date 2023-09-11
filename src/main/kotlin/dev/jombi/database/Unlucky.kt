@@ -38,8 +38,8 @@ object LocalDateSerializer : KSerializer<LocalDate> {
 }
 
 object UnluckyTable : Table() {
-    val firstName = varchar("firstName", 4)
-    val secondName = varchar("secondName", 4)
+    val firstName = varchar("firstName", 6)
+    val secondName = varchar("secondName", 6)
     val date = date("date")
     val id = integer("id").autoIncrement()
 
